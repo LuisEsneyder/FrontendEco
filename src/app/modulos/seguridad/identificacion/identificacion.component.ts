@@ -22,7 +22,7 @@ fgValidator : FormGroup = this.fb.group({
 
   constructor(private fb: FormBuilder, private servicioSeguridad : SeguridadService,
     private router : Router) { 
-      this.sitekey = '6Lef0JUdAAAAAP4_ViPT3bnJ5SZU3lUAinBmHnhY';
+      this.sitekey = '6Lf5iJodAAAAAGj_ah-FFMcHppxfWSxlFasS_1db';
       this.language = 'es';
     }
     
