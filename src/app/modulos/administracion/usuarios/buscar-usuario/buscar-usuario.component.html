@@ -7,7 +7,8 @@
         <tr>
        <th>Nombre</th>
         <th>Correo</th>
-       <th>Rol</th>        
+       <th>Rol</th> 
+       <th>contraseña</th>       
        <th>Acción</th>
     </tr>
     </thead>
@@ -22,7 +23,7 @@
             <td>
                 {{p.nombreROl}}
             </td>
-            
+            <td>{{p.contrasena}}</td>
             <td>
                 <button routerLink="/administracion/editar-usuario/{{p.id}}" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i></button>
             </td>
