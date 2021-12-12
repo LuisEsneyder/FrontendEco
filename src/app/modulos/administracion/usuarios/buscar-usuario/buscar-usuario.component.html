@@ -4,14 +4,14 @@
 
   <div class="container-fluid bg-grey">
     <div class="container">
-        <h2 class="text-center">Lista de ususarios</h2>
+        <h2 class="text-center">Lista de usuarios</h2>
     <table class="table text-center table-bordered">
         <thead class="panel panel-default text-ceenter">
         <tr>
        <th>Nombre</th>
         <th>Correo</th>
        <th>Rol</th>        
-       <th>Editar</th>
+       <th>Acción</th>
     </tr>
     </thead>
     <tbody class="panel panel-default text-ceenter">
@@ -27,7 +27,7 @@
             </td>
             
             <td>
-                <button routerLink="/administracion/editar-usuario/{{p.id}}" class="btn btn-primary">Editar Usuario</button>
+                <button routerLink="/administracion/editar-usuario/{{p.id}}" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i></button>
             </td>
         </tr>  
     </tbody>

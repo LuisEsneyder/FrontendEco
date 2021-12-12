@@ -8,7 +8,7 @@ import { SeguridadService } from './seguridad.service';
   providedIn: 'root'
 })
 export class ProductoService {
-  url = 'http://localhost:3000';
+  url = 'https://backend-ecosas.herokuapp.com';
   token: string = '';
   constructor(private http: HttpClient, private seguridadServicio: SeguridadService){
     this.token = this.seguridadServicio.ObtenerToken ();
